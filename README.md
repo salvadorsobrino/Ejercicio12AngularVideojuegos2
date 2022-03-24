@@ -1,27 +1,31 @@
-# Videojuegos2
+Hacer una aplicacion en Angular que muestre un listado-detalle de Videojuegos.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.1.4.
+Los videojuegos tendran un identificador, un titulo, una compañia, un icono/imagen y una valoración media.
 
-## Development server
+Para entrar en la página deberemos de estar registrados, se mostrará una página de login al principio
+donde deberemos de poner nuestro usuario y nuestro password. La aplicación tendrá algunos usuarios por
+defecto.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+En caso de que podamos entrar en la aplicación se mostrará una página con nuestro nombre de usuario y 
+el listado de videojuegos (tendremos algunos videojuegos ya dados de alta), pero solo se mostrará en el 
+listado el identificador, el icono/imagen y el titulo.
 
-## Code scaffolding
+Si pulsamos en un videojuego, nos llevará a su detalle, el cual podremos ver todos los atributos del 
+videojuego. Esta pagina tendrá tambien un boton para volver.
+(Otro caso)
+En caso de que no podamos entrar en la página, se nos mostrará otra vez la pagina de login diciendo que
+no hemos podido acceder. Debemos de distinguir si no hemos podido porque el usuario no existe o porque
+hemos puesto mal el password. Si no hemos puesto el nombre el password, tambien nos debera avisar.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+La pagina web tendra tambien una página que muestre los datos para contactarnos y otra pagina que hable sobre
+nosotros. A estas páginas accederemos mediante un menu de navegación (tambien en este menu tendremos el 
+listado de videojuegos)
 
-## Build
+Se deben hacer estilos en la aplicación, aplicar routing en todas las paginas y aplicar comunicación 
+entre componentes.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+NOTA: Se ha añadido la funcionalidad de crear usuarios nuevos temporalmente, ya que se pierden al cerrar el servidor.
 
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+ng new 01_HolaMundo. Aceptaremos los valores predeterminados (Y y Enter). Añadimos Routing (Y)
+ng serve -o arranca nuestro servidor
+CTRL+C en la terminal donde hemos arrancado nuestro servidor para cerrar

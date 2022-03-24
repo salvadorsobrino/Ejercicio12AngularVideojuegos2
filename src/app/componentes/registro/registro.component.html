@@ -1,0 +1,10 @@
+<div id="registro">
+  <label for="usuario">Crear Usuario: </label><br>
+  <input type="text" id="usuario"  [(ngModel)]="user">
+  <br>
+  <label for="contrasenia">Crear Contraseña: </label><br>
+  <input type="password" id="contrasenia" [(ngModel)]="passw">
+  <br><br>
+  <input type="submit" value="Crear" (click)="anadirUsuario()">
+  <button value="Volver" routerLink="/login">Volver</button>
+</div>

@@ -1,0 +1,12 @@
+h1{
+    background-color:rgb(255, 185, 55);
+    border-color: black;
+    border-style: solid;
+    border-width: thin;
+    text-align: center;
+}
+@media screen and (max-width: 1000px) {
+    h1{
+        background-color:rgb(248, 128, 107);
+    }
+}

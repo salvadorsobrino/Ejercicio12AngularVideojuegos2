@@ -1,0 +1,23 @@
+.tabla{
+    width: 60%;
+    border-style: solid;
+    border-width: thin;
+    text-align: center;
+    margin-left: 20%;
+    background-color:rgb(255, 185, 55);
+}
+#boton{
+    margin-left: 90%;
+}
+#detalles{
+    width: 42vw;
+    background-color:rgb(233, 219, 182);
+    padding:1%;
+    border-style: solid;
+    border-width: thin;
+    border-color: black;
+    margin-left: 29%;
+}
+@media screen and (max-width: 1000px) {
+ 
+}

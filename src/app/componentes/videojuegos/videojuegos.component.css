@@ -1,0 +1,23 @@
+h1,h2,h5{
+   margin-left: 25%;
+}
+.rojo{
+    color:red;
+}
+#videojuegos{
+    width: 42vw;
+    background-color:rgb(233, 219, 182);
+    padding:1%;
+    border-style: solid;
+    border-width: thin;
+    border-color: black;
+    margin-left: 29%;
+}
+@media screen and (max-width: 1000px) {
+    #videojuegos{
+        width: 80vw;
+        margin-left:10vw;
+        background-color: rgb(253, 178, 173);
+        border-color: rgb(255, 72, 0);
+    }
+}

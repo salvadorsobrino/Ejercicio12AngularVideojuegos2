@@ -1,0 +1,17 @@
+#aboutUs{
+    text-align: center;
+    width: 60vw;
+    background-color:rgb(233, 219, 182);
+    border-color: black;
+    border-style: solid;
+    border-width: thin;
+    margin-left:19vw;
+    padding: 1%;
+}
+@media screen and (max-width: 1000px) {
+    #aboutUs{
+        width: 80vw;
+        margin-left:10vw;
+        background-color: rgb(253, 178, 173);
+    }
+}

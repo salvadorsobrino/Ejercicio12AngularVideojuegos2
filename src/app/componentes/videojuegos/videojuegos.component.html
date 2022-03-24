@@ -1,0 +1,10 @@
+<app-navegacion></app-navegacion>
+<!--Podemos pasar todos los datos que queramos desde el elemento padre al hijo.-->
+<!--listado el identificador, el icono/imagen y el titulo.-->
+<div id="videojuegos">
+  <h1>Bienvenid@ {{nombre}}</h1>
+  <h2>Tabla de Videojuegos</h2>
+  <h5>Click en cualquier fila para ver los detalles del videojuego</h5>
+  <app-videojuego *ngFor="let v of listaVideojuegos" (click)="seleccionar(v)" [videojuego]="v">
+  </app-videojuego>
+</div>

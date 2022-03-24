@@ -1,0 +1,26 @@
+<div id="detalles">
+
+<table class="tabla">
+  <caption><h2>Detalles del Videojuego</h2></caption>
+  <thead>
+    <tr>
+      <th class="tabla">ID</th>
+      <th class="tabla">Titulo</th>
+      <th class="tabla">Compañia</th>
+      <th class="tabla">Imagen</th>
+      <th class="tabla">Valoracion Media</th>
+    </tr>
+
+  </thead>
+  <tbody>
+  <tr>
+    <td class="tabla">{{id}}</td>
+    <td class="tabla">{{titulo}}</td>
+    <td class="tabla">{{compania}}</td>
+    <td class="tabla"><img src="{{imagen}}" width="64px" height="64px"></td>
+    <td class="tabla">{{valoracionMedia}}</td>
+  </tr>
+</tbody>
+</table>
+<button id="boton" [routerLink]="['/videojuegos',nombre]">Volver</button>
+</div>

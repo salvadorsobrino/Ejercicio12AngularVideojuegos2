@@ -1,0 +1,10 @@
+<div id="login">
+  <label for="usuario">Usuario: </label><br>
+  <input type="text" id="usuario"  [(ngModel)]="user">
+  <br>
+  <label for="contrasenia">Contraseña: </label><br>
+  <input type="password" id="contrasenia" [(ngModel)]="passw">
+  <br><br>
+  <input type="submit" value="Acceder" (click)="routingProgramatico()">
+  <input type="submit" value="Registro Temporal" routerLink="/registro">
+</div>
